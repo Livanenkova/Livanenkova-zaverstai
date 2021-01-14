@@ -1,11 +1,30 @@
 .neader--main{
+background-color: tomato;
 background-image: url(../../img/header_bg.png);
 background-repeat: no-repeat;
 background-position: center;
-width:auto;
+width: auto;
 height: 581px;
 };
 
 .header {
     display: flex;
+}
+
+.header__logo {
+width: 50%;
+background-image: url(../../img/header_logo.png);
+background-repeat: no-repeat;
+}
+
+.header__list {
+    width: 50%;
+    display: flex;
+}
+
+.header__list-item {
+    height: 40px;
+    width: 25%;
+    border: none;
+    background-color: transparent;
 }
