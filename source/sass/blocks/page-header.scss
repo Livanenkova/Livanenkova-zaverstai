@@ -12,9 +12,8 @@ height: 581px;
 .header {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     flex-wrap: nowrap;
-    align-items:baseline;
+    width: 100%;
 
 }
 
@@ -41,8 +40,8 @@ background-repeat: no-repeat;
     width: 25%;
     border: none;
     background-color: transparent;
-    font-family: 'Spectral SC';
-    // font-family: 'Open Sans';
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
+    font-size: 18px;
 }
