@@ -5,6 +5,7 @@ background-repeat: no-repeat;
 background-position: center;
 width: auto;
 height: 581px;
+
 };
 
 .header {
@@ -15,6 +16,7 @@ height: 581px;
 width: 50%;
 background-image: url(../../img/header_logo.png);
 background-repeat: no-repeat;
+
 }
 
 .header__list {
@@ -27,4 +29,8 @@ background-repeat: no-repeat;
     width: 25%;
     border: none;
     background-color: transparent;
+    font-family: 'Spectral SC';
+    // font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
 }
