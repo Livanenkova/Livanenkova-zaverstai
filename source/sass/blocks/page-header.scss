@@ -1,6 +1,7 @@
 .neader--main{
 background-color:#efeae5;
 background-image: url(../../img/header_bg.png);
+background-size: cover; 
 background-repeat: no-repeat;
 background-position: center;
 width: auto;
@@ -10,7 +11,10 @@ height: 581px;
 
 .header {
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    flex-wrap: nowrap;
+    align-items:baseline;
 
 }
 
