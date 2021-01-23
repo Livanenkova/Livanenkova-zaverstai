@@ -1,6 +1,12 @@
 .articles__title {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
     width: 100%;
+    justify-content: center;
+
+
 }
 
 .articles__title-text {
