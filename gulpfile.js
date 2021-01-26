@@ -19,6 +19,7 @@ var htmlmin = require('gulp-htmlmin');
 var uglify = require('gulp-uglify');
 var pipeline = require('readable-stream').pipeline;
 var ghpages = require('gh-pages');
+var ghPages = require('gulp-gh-pages');
 
 gulp.task('deploy', function() {
   return gulp.src('./build/**/*')
