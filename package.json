@@ -33,7 +33,7 @@
     "test": "npm run editorconfig && npm run stylelint",
     "build": "gulp build",
     "start": "gulp start",
-    "deploy": "gulp deploy"
+    "deploy": "npm run build && gulp deploy"
   },
   "browserslist": [
     "last 2 versions",
