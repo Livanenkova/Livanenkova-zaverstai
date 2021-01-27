@@ -1,19 +1,19 @@
 .articles__title {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    width: 100%;
-    justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
 }
 
 .articles__title-text {
-    width:50%;
+  width: 50%;
 }
 
 .articles__title-filter {
-    width:50%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
