@@ -20,3 +20,48 @@
   flex-direction: row;
   justify-content: flex-end;
 }
+
+.articles__item-img--berlin {
+  background-image: url(../img/articles_berlin.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 387px;
+  height: 268px;
+}
+
+.articles__item-img--coffee {
+  background-image: url(../img/articles_coffee.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 387px;
+  height: 268px;
+}
+
+.articles__item-img--books {
+  background-image: url(../img/articles_books.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 387px;
+  height: 268px;
+}
+
+.articles__item-img--photo {
+  background-image: url(../img/articles_photo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 590px;
+  height: 552px;
+}
+
+.articles__item-img--cake {
+  background-image: url(../img/articles_cake.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 590px;
+  height: 552px;
+}
