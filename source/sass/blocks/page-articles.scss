@@ -76,3 +76,15 @@
 .articles__item--coffee {
   margin: 0 20Px 0 20Px;
 }
+
+.articles-wrapper-half{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.articles-wrapper-half > .articles__item {
+  width: 48%;
+}
