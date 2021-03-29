@@ -88,3 +88,20 @@
 .articles-wrapper-half > .articles__item {
   width: 48%;
 }
+
+.articles__item-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.articles__item-tag {
+  width: 50%;
+}
+
+.articles__item-date {
+  width: 50%;
+}
